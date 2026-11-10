@@ -1,0 +1,28 @@
+aid: writerslogic-com
+name: WritersLogic Verifiable AI Agent Hub
+description: 'WritersLogic Verifiable AI Agent Hub is a company surfaced via the API Evangelist harvest
+  backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/writerslogic-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-10'
+modified: '2026-11-10'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://writerslogic.com/agents/
+- type: Documentation
+  url: https://agents.writerslogic.com/docs
+x-submission-notes: Pay-per-call agents (USDC on Base); OpenAPI https://agents.writerslogic.com/openapi.json
+x-submission-probe: agents.writerslogic.com root 200, control 404, llms.txt 200, OpenAPI 3.1.0 200 (1.6MB)
+x-submitted-by: david@writerslogic.com (apis.io/add, 2026-11-10)
